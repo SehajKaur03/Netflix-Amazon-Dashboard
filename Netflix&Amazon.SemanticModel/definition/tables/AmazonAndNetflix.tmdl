@@ -1,0 +1,142 @@
+table AmazonAndNetflix
+	lineageTag: 9eae97ed-f7f7-49b3-8e40-38047a059544
+
+	column MovieId
+		dataType: string
+		lineageTag: 550dd924-3058-4ec3-8bd5-9c2b7a1d6a91
+		summarizeBy: none
+		sourceColumn: MovieId
+
+		annotation SummarizationSetBy = Automatic
+
+	column Title
+		dataType: string
+		lineageTag: 1bb1a8a4-dc2d-4863-9b80-be1da1df837f
+		summarizeBy: none
+		sourceColumn: Title
+
+		annotation SummarizationSetBy = Automatic
+
+	column Director
+		dataType: string
+		lineageTag: 77196e70-9fb4-4a05-9633-9fbee78c4c15
+		summarizeBy: none
+		sourceColumn: Director
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Country of Origin'
+		dataType: string
+		lineageTag: 7a7f4dec-687f-4ef3-b772-ffd9e3266ea7
+		summarizeBy: none
+		sourceColumn: Country of Origin
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Date Added'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 997fb80d-ae72-4fb2-82e5-a8ffcc3a67a6
+		summarizeBy: none
+		sourceColumn: Date Added
+
+		variation Variation
+			isDefault
+			relationship: 02ef1fe7-c7a2-4ce8-a165-a38ce417a10a
+			defaultHierarchy: LocalDateTable_c848b18c-ddc2-45a6-8669-ec488bfa39ae.'Date Hierarchy'
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Release Year'
+		dataType: int64
+		formatString: 0
+		lineageTag: 8edbb1bd-a131-4497-a055-c7eda56f4678
+		summarizeBy: sum
+		sourceColumn: Release Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column Classification
+		dataType: string
+		lineageTag: 9183299b-35d2-4a53-b31e-e32f0ac31f63
+		summarizeBy: none
+		sourceColumn: Classification
+
+		annotation SummarizationSetBy = Automatic
+
+	column Duration
+		dataType: int64
+		formatString: 0
+		lineageTag: 42c6f518-0b00-46e4-9f51-1177399cce99
+		summarizeBy: sum
+		sourceColumn: Duration
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Main Genre'
+		dataType: string
+		lineageTag: fc208162-acae-43d3-a7b6-aaae71d2e455
+		summarizeBy: none
+		sourceColumn: Main Genre
+
+		annotation SummarizationSetBy = Automatic
+
+	column Subgenre
+		dataType: string
+		lineageTag: b5171c2b-f5ea-4753-87b6-45614cbf7bb6
+		summarizeBy: none
+		sourceColumn: Subgenre
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Main Star'
+		dataType: string
+		lineageTag: 289c1a19-b862-4383-9b30-7930051d03f6
+		summarizeBy: none
+		sourceColumn: Main Star
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Average Rating'
+		dataType: double
+		lineageTag: 8d536fb6-5717-4226-aea4-6f003e2a793c
+		summarizeBy: sum
+		sourceColumn: Average Rating
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Number of Votes'
+		dataType: int64
+		formatString: 0
+		lineageTag: b362eeff-cde2-466b-86b1-fd7382aaa98f
+		summarizeBy: sum
+		sourceColumn: Number of Votes
+
+		annotation SummarizationSetBy = Automatic
+
+	column Platform
+		dataType: string
+		lineageTag: dbb801d0-b4bf-40b3-86fd-0246cd3d0f12
+		summarizeBy: none
+		sourceColumn: Platform
+
+		annotation SummarizationSetBy = Automatic
+
+	partition AmazonAndNetflix = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("C:\Users\sehaj\Downloads\SummativeData.xlsx"), null, true),
+				    AmazonAndNetflix_Table = Source{[Item="AmazonAndNetflix",Kind="Table"]}[Data],
+				    #"Changed Type" = Table.TransformColumnTypes(AmazonAndNetflix_Table,{{"MovieId", type text}, {"Title", type text}, {"Director", type text}, {"Country of Origin", type text}, {"Date Added", type any}, {"Release Year", Int64.Type}, {"Classification", type text}, {"Duration", Int64.Type}, {"Main Genre", type text}, {"Subgenre", type text}, {"Main Star", type text}, {"Average Rating", type number}, {"Number of Votes", Int64.Type}, {"Platform", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+

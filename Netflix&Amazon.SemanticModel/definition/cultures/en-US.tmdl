@@ -1,0 +1,2304 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "amazon_and_netflix": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AmazonAndNetflix"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "amazon and netflix": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AmazonAndNetflix": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "amazon": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "amazon netflix": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "netflix": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix.movie_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AmazonAndNetflix",
+			          "ConceptualProperty": "MovieId"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "movie id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MovieId": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "movie": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "movie identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "movie identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "movie identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "movie credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "flick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "picture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "film": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix.title": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AmazonAndNetflix",
+			          "ConceptualProperty": "Title"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "title": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "designation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "award": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "heading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "Movie Name": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix.director": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AmazonAndNetflix",
+			          "ConceptualProperty": "Director"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "director": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "manager": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "administrator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "leader": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "executive": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "boss": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "principal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "chief": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "instructor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "counselor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "counsellor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix.country_of_origin": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AmazonAndNetflix",
+			          "ConceptualProperty": "Country of Origin"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "country of origin": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "country": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "nation of origin": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "location of origin": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "nation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix.date_added": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AmazonAndNetflix",
+			          "ConceptualProperty": "Date Added"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date added": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "moment added": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "period added": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "amazon_and_netflix.date_added.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AmazonAndNetflix",
+			          "VariationSource": "Date Added",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "date hierarchy added": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "amazon_and_netflix.date_added.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AmazonAndNetflix",
+			          "VariationSource": "Date Added",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year added": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "yr added": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment added year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "period added year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "amazon_and_netflix.date_added.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AmazonAndNetflix",
+			          "VariationSource": "Date Added",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quarter added": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "qtr added": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "moment added quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "period added quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "amazon_and_netflix.date_added.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AmazonAndNetflix",
+			          "VariationSource": "Date Added",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "month added": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "mth added": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "moment added month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "period added month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "amazon_and_netflix.date_added.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AmazonAndNetflix",
+			          "VariationSource": "Date Added",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "day added": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date added day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "moment added day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "period added day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "amazon_and_netflix.release_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AmazonAndNetflix",
+			          "ConceptualProperty": "Release Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "release year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "release yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "amazon_and_netflix.classification": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AmazonAndNetflix",
+			          "ConceptualProperty": "Classification"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "classification": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "organization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "arrangement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "taxonomy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "categorization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "cataloguing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "cataloging": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sorting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ordering": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix.duration": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AmazonAndNetflix",
+			          "ConceptualProperty": "Duration"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "duration": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "length": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "spell": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix.main_genre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AmazonAndNetflix",
+			          "ConceptualProperty": "Main Genre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "main genre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "genre": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "main category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "main variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "main genus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "variety": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "genus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "main type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "main sort": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "main kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "main field": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix.subgenre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AmazonAndNetflix",
+			          "ConceptualProperty": "Subgenre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "subgenre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix.main_star": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AmazonAndNetflix",
+			          "ConceptualProperty": "Main Star"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "main star": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "star": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "space": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "brilliant": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "great": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "major": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "well-known": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "leading": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "principal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "best": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "main actor": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.451
+			          }
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix.average_rating": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AmazonAndNetflix",
+			          "ConceptualProperty": "Average Rating"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average rating": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rating": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "average assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "average evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "average score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average ranking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "average mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix.number_of_votes": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AmazonAndNetflix",
+			          "ConceptualProperty": "Number of Votes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "number of votes": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "number of vote": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "quantity of vote": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.769
+			          }
+			        },
+			        {
+			          "amount of vote": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.746
+			          }
+			        },
+			        {
+			          "count of vote": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.746
+			          }
+			        },
+			        {
+			          "no of vote": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix.platform": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "AmazonAndNetflix",
+			          "ConceptualProperty": "Platform"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "platform": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "podium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "dais": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stand": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "policy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "proposal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "manifesto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "program": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "amazon_and_netflix_date_added_date_hierarchy_has_amazon_and_netflix_date_added_month": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix.date_added.date_hierarchy": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.date_added.date_hierarchy"
+			          }
+			        },
+			        "amazon_and_netflix.date_added.month": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.date_added.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix.date_added.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "amazon_and_netflix.date_added.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchy_added_have_month_added"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_date_added_date_hierarchy_has_amazon_and_netflix_date_added_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix.date_added.date_hierarchy": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.date_added.date_hierarchy"
+			          }
+			        },
+			        "amazon_and_netflix.date_added.quarter": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.date_added.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix.date_added.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "amazon_and_netflix.date_added.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchy_added_have_quarter_added"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_date_added_date_hierarchy_has_amazon_and_netflix_date_added_year": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix.date_added.date_hierarchy": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.date_added.date_hierarchy"
+			          }
+			        },
+			        "amazon_and_netflix.date_added.year": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.date_added.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix.date_added.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "amazon_and_netflix.date_added.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchy_added_have_year_added"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_date_added_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix.date_added": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.date_added"
+			          }
+			        },
+			        "amazon_and_netflix.date_added.date_hierarchy": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.date_added.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix.date_added"
+			            },
+			            "Object": {
+			              "Role": "amazon_and_netflix.date_added.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_added_have_date_hierarchy_added"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_has_platform": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix"
+			          }
+			        },
+			        "amazon_and_netflix.platform": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.platform"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix"
+			            },
+			            "Object": {
+			              "Role": "amazon_and_netflix.platform"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amazon_and_netflix_have_platforms"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_has_number_of_votes": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix"
+			          }
+			        },
+			        "amazon_and_netflix.number_of_votes": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.number_of_votes"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix"
+			            },
+			            "Object": {
+			              "Role": "amazon_and_netflix.number_of_votes"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amazon_and_netflix_have_number_of_votes"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_has_average_rating": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix"
+			          }
+			        },
+			        "amazon_and_netflix.average_rating": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.average_rating"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix"
+			            },
+			            "Object": {
+			              "Role": "amazon_and_netflix.average_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amazon_and_netflix_have_average_rating"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_has_main_star": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix"
+			          }
+			        },
+			        "amazon_and_netflix.main_star": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.main_star"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix"
+			            },
+			            "Object": {
+			              "Role": "amazon_and_netflix.main_star"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amazon_and_netflix_have_main_stars"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_has_subgenre": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix"
+			          }
+			        },
+			        "amazon_and_netflix.subgenre": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.subgenre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix"
+			            },
+			            "Object": {
+			              "Role": "amazon_and_netflix.subgenre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amazon_and_netflix_have_subgenres"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_has_main_genre": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix"
+			          }
+			        },
+			        "amazon_and_netflix.main_genre": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.main_genre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix"
+			            },
+			            "Object": {
+			              "Role": "amazon_and_netflix.main_genre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amazon_and_netflix_have_main_genres"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_has_duration": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix"
+			          }
+			        },
+			        "amazon_and_netflix.duration": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.duration"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix"
+			            },
+			            "Object": {
+			              "Role": "amazon_and_netflix.duration"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amazon_and_netflix_have_durations"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_has_classification": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix"
+			          }
+			        },
+			        "amazon_and_netflix.classification": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.classification"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix"
+			            },
+			            "Object": {
+			              "Role": "amazon_and_netflix.classification"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amazon_and_netflix_have_classifications"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_has_release_year": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix"
+			          }
+			        },
+			        "amazon_and_netflix.release_year": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.release_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix"
+			            },
+			            "Object": {
+			              "Role": "amazon_and_netflix.release_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amazon_and_netflix_have_release_years"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_has_date_added": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix"
+			          }
+			        },
+			        "amazon_and_netflix.date_added": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.date_added"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix"
+			            },
+			            "Object": {
+			              "Role": "amazon_and_netflix.date_added"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amazon_and_netflix_have_date_added"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_has_country_of_origin": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix"
+			          }
+			        },
+			        "amazon_and_netflix.country_of_origin": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.country_of_origin"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix"
+			            },
+			            "Object": {
+			              "Role": "amazon_and_netflix.country_of_origin"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amazon_and_netflix_have_country_of_origin"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_has_director": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix"
+			          }
+			        },
+			        "amazon_and_netflix.director": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.director"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix"
+			            },
+			            "Object": {
+			              "Role": "amazon_and_netflix.director"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amazon_and_netflix_have_directors"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix.director"
+			            },
+			            "Verbs": [
+			              {
+			                "direct": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "amazon_and_netflix"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.75,
+			          "ID": "directors_direct_amazon_and_netflix"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix.director"
+			            },
+			            "Object": {
+			              "Role": "amazon_and_netflix"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "directors_have_amazon_and_netflix"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_has_title": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix"
+			          }
+			        },
+			        "amazon_and_netflix.title": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.title"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix"
+			            },
+			            "Object": {
+			              "Role": "amazon_and_netflix.title"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amazon_and_netflix_have_titles"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_has_movie_id": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix"
+			          }
+			        },
+			        "amazon_and_netflix.movie_id": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.movie_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix"
+			            },
+			            "Object": {
+			              "Role": "amazon_and_netflix.movie_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amazon_and_netflix_have_movie_ids"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_in_country_of_origin": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix"
+			          }
+			        },
+			        "amazon_and_netflix.country_of_origin": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.country_of_origin"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "amazon_and_netflix.country_of_origin"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "amazon_and_netflix.country_of_origin"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "amazon_and_netflix_are_in_country_of_origin"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_is_released_in_release_year": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix"
+			          }
+			        },
+			        "amazon_and_netflix.release_year": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.release_year"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "amazon_and_netflix.release_year"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "release": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "amazon_and_netflix"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "amazon_and_netflix_are_released_on_release_years"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_is_added_on_date_added": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix"
+			          }
+			        },
+			        "amazon_and_netflix.date_added": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.date_added"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "amazon_and_netflix.date_added"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "add": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "amazon_and_netflix"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "amazon_and_netflix_are_added_on_date_added"
+			        }
+			      ]
+			    },
+			    "amazon_and_netflix_date_added_date_hierarchy_has_amazon_and_netflix_date_added_day": {
+			      "Binding": {
+			        "ConceptualEntity": "AmazonAndNetflix"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "amazon_and_netflix.date_added.date_hierarchy": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.date_added.date_hierarchy"
+			          }
+			        },
+			        "amazon_and_netflix.date_added.day": {
+			          "Target": {
+			            "Entity": "amazon_and_netflix.date_added.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "amazon_and_netflix.date_added.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "amazon_and_netflix.date_added.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "date_hierarchy_added_have_day_added"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

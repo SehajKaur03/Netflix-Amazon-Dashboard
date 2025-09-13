@@ -1,0 +1,5 @@
+relationship 02ef1fe7-c7a2-4ce8-a165-a38ce417a10a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: AmazonAndNetflix.'Date Added'
+	toColumn: LocalDateTable_c848b18c-ddc2-45a6-8669-ec488bfa39ae.Date
+

@@ -8,7 +8,7 @@ It provides insights into the number of movies, genres, release trends, and top-
 ---
 ## 📊 Dashboard Preview
 
-
+![Movies Dashboard](image.png)
 
 ## 📊 Dashboard Features  
 

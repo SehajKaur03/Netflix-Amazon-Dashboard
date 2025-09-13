@@ -51,7 +51,11 @@ It provides insights into the number of movies, genres, release trends, and top-
 
 ## ▶️ How to Run  
 -Install Power BI Desktop (free from Microsoft).
+
 -Clone this repository to your local machine.
+
 -Open the Movies_Dashboard.pbix file in Power BI Desktop.
+
 -Use the genre filters to explore movies by category.
+
 -Interact with the charts to compare platforms, genres, release years, and ratings
